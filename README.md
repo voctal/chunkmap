@@ -1,7 +1,7 @@
 # Chunkmap
 
 A tool to render a top-down view of the loaded chunks in your Minecraft worlds.  
-This repository powers [chunkmap.sodiumlabs.xyz](https://chunkmap.sodiumlabs.xyz).
+This repository powers [chunkmap.voctal.dev](https://chunkmap.voctal.dev).
 
 <img src=".github/header.png" width="700" alt="Chunkmap header">
 
@@ -14,7 +14,7 @@ This repository powers [chunkmap.sodiumlabs.xyz](https://chunkmap.sodiumlabs.xyz
 > Modded worlds are not supported. Chunks generated before 1.18 are not compatible.
 > The nether generation is a bit slower than the overworld/end.
 
-Download the CLI from the [releases](https://github.com/sodium-labs/chunkmap/releases) page, or build it yourself with Cargo:
+Download the CLI from the [releases](https://github.com/voctal/chunkmap/releases) page, or build it yourself with Cargo:
 
 ```bash
 cargo build --release
@@ -83,7 +83,7 @@ Below are some examples from one of my worlds. The map is approximately 10,000 b
 ## More Information
 
 - `anvil-region` and `chunkmap` are WASM-compatible.
-- `blocks.json` and `biomes.json` were generated with [mc-data](https://github.com/sodium-labs/mc-data). Do not edit them manually.
+- `blocks.json` and `biomes.json` were generated with [mc-data](https://github.com/voctal/mc-data). Do not edit them manually.
 - Go check the [wiki](https://minecraft.wiki/w/Chunk_format) to understand how the chunks are stored.
 
 This repository contains the following projects:
